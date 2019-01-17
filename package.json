@@ -2,7 +2,8 @@
   "name": "typescript-deep-dive-node",
   "version": "1.0.0",
   "description": "TypeScript with Node.js",
-  "main": "index.js",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
     "start": "npm run build:live",
     "build": "tsc -p .",
